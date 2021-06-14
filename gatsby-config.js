@@ -31,13 +31,21 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        authorsPage: true,
+        mailchimp: true,
         sources: {
           local: true,
           // contentful: true,
         },
       },
     },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://dev.us6.list-manage.com/subscribe/post?u=5506e8154f9d4daf7cedeea66&amp;id=0e2c1de470", // add your MC list endpoint here; see plugin repo for instructions
+      },
+    },
+    `gatsby-plugin-sitemap`,
     // {
     //   resolve: "gatsby-plugin-react-svg",
     //   options: {

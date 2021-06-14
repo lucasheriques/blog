@@ -3,6 +3,7 @@ title: My first post using Novela by Narative
 author: Lucas Faria
 date: 2021-06-13
 hero: ./images/hero.jpg
+subscription: false
 excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
 ---
 
